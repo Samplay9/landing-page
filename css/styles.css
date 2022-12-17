@@ -1,0 +1,144 @@
+ body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 200px;
+}
+.first-image{
+  width: 1500px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.second-image{
+  width:20%;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
+.heart {
+  color: red;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px 50px;
+  border: dotted 10px;
+  border-left: none;
+  border-right: none;
+  border-color: #11999e;
+  padding: 20px;
+  line-height: 2;
+
+
+}
+.skill-row1{
+  width:50%;
+  margin: 100px 50px 100px auto;
+  border: dotted 10px;
+  border-left: none;
+  border-right: none;
+  border-color: #11999e;
+  padding: 30px;
+  line-height: 2;
+}
+
+.skill-image1{
+  width: 25%;
+  float: left;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+.skill-image2{
+  width: 20%;
+  float: right;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+hr{
+  width:5%;
+  border-style:none;
+  border-top: dotted 10px;
+  border-color: #EAF6F6;
+  margin: 60px auto;
+}
+.contact-me{
+line-height: 2;
+}
+.btn{
+  color: white;
+  font-weight: bold;
+}
+button{
+  padding: 8px 15px 8px 15px;
+  background-color: #11999E;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  line-height: 5;
+  font-weight: bold;
+  padding:20px;
+  font-family: 'Merriweather', serif;
+}
+.footer-link{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 2px 50px;
+  text-decoration: none;
+
+}
+a:hover{
+color: white;
+
+}
+.footer-sign{
+  word-spacing: normal;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.last{
+  width: 40%;
+  margin: 30px auto 60px;
+}
